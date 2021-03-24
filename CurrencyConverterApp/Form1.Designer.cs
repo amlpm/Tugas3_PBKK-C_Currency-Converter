@@ -96,7 +96,7 @@ namespace CurrencyConverterApp
             // 
             this.toComboBox.FormattingEnabled = true;
             this.toComboBox.Items.AddRange(new object[] {
-            "Rupees",
+            "Rupee",
             "Dollar",
             "Euro"});
             this.toComboBox.Location = new System.Drawing.Point(248, 247);

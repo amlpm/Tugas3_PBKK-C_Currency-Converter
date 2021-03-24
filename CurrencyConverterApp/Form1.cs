@@ -26,20 +26,30 @@ namespace CurrencyConverterApp
                 int conv = i / 103;
                 display.Text = "Jumlah yang Dikonvert : " + conv + "\t $";
             }
-            if (fromComboBox.SelectedItem == "Rupee" && toComboBox.SelectedItem == "Euro")
+            if (fromComboBox.SelectedItem == "Dollar" && toComboBox.SelectedItem == "Rupee")
             {
-                int conv = i / 115;
-                display.Text = "Jumlah yang Dikonvert : " + conv + "\t Euro";
+                int conv = i * 103;
+                display.Text = "Jumlah yang Dikonvert : " + conv + "\t Rupee";
             }
             if (fromComboBox.SelectedItem == "Rupee" && toComboBox.SelectedItem == "Euro")
             {
                 int conv = i / 115;
                 display.Text = "Jumlah yang Dikonvert : " + conv + "\t Euro";
             }
-            if (fromComboBox.SelectedItem == "Rupee" && toComboBox.SelectedItem == "Euro")
+            if (fromComboBox.SelectedItem == "Euro" && toComboBox.SelectedItem == "Rupee")
             {
-                int conv = i / 115;
+                int conv = i * 115;
+                display.Text = "Jumlah yang Dikonvert : " + conv + "\t Rupee";
+            }
+            if (fromComboBox.SelectedItem == "Dollar" && toComboBox.SelectedItem == "Euro")
+            {
+                int conv = i / 2;
                 display.Text = "Jumlah yang Dikonvert : " + conv + "\t Euro";
+            }
+            if (fromComboBox.SelectedItem == "Euro" && toComboBox.SelectedItem == "Dollar")
+            {
+                int conv = i * 2;
+                display.Text = "Jumlah yang Dikonvert : " + conv + "\t $";
             }
         }
     }
