@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\CurencyConverterDynamic.exe
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\CurencyConverterDynamic.deps.json
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\CurencyConverterDynamic.runtimeconfig.json
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\CurencyConverterDynamic.runtimeconfig.dev.json
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\CurencyConverterDynamic.dll
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\CurencyConverterDynamic.pdb
+C:\Users\user\source\repos\CurencyConverterDynamic\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.csprojAssemblyReference.cache
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.Form1.resources
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.csproj.GenerateResource.cache
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.AssemblyInfo.cs
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.csproj.CopyComplete
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.dll
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.pdb
+C:\Users\user\source\repos\CurencyConverterDynamic\obj\Debug\netcoreapp3.1\CurencyConverterDynamic.genruntimeconfig.cache

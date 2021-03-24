@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CZpma1DW5rspuo68tJagzQD1gx4LMm/iuV52RQTfRCCJiF949+QO2URbRgPHqr/5EknHws+lcbJKcgd8IQANiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
