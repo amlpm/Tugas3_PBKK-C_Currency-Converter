@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Currency_Conversion_App   
+namespace CurrencyConvertion
 {
     class CurrencyList
     {

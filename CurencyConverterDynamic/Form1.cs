@@ -1,4 +1,4 @@
-﻿using Currency_Conversion_App;
+﻿using CurrencyConvertion;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Drawing;
@@ -19,7 +19,7 @@ namespace CurencyConverterDynamic
         }
         public void getCurrencyList()
         {
-            APIRequester currencyListRequest = new APIRequester("https://free.currconv.com/api/v7/currencies?apiKey=253e086647d6374c27c6");
+            API currencyListRequest = new API("https://free.currconv.com/api/v7/currencies?apiKey=253e086647d6374c27c6");
             CurrencyList currencyList = CurrencyList.Deserialize(currencyListRequest.SendAndGetResponse());
 
             CurrencyData[] datas = currencyList.ToArray();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj": {}
+    "C:\\Users\\user\\Downloads\\Informatika\\Semester 6\\PBKK\\Minggu3\\Tugas3_PBKK-C_Currency-Converter\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj": {
+    "C:\\Users\\user\\Downloads\\Informatika\\Semester 6\\PBKK\\Minggu3\\Tugas3_PBKK-C_Currency-Converter\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Downloads\\Informatika\\Semester 6\\PBKK\\Minggu3\\Tugas3_PBKK-C_Currency-Converter\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj",
         "projectName": "CurencyConverterDynamic",
-        "projectPath": "C:\\Users\\user\\source\\repos\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj",
+        "projectPath": "C:\\Users\\user\\Downloads\\Informatika\\Semester 6\\PBKK\\Minggu3\\Tugas3_PBKK-C_Currency-Converter\\CurencyConverterDynamic\\CurencyConverterDynamic.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\CurencyConverterDynamic\\obj\\",
+        "outputPath": "C:\\Users\\user\\Downloads\\Informatika\\Semester 6\\PBKK\\Minggu3\\Tugas3_PBKK-C_Currency-Converter\\CurencyConverterDynamic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

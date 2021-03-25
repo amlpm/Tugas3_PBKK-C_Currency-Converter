@@ -5,15 +5,15 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Currency_Conversion_App
+namespace CurrencyConvertion
 {
-    class APIRequester
+    class API
     {
 
         private string url;
         private WebClient client;
 
-        public APIRequester(string url)
+        public API(string url)
         {
             this.url = url;
             this.client = new WebClient();
