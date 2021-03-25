@@ -15,9 +15,9 @@ namespace CurencyConverterDynamic
             InitializeComponent();
 
             label7.Text = "";
-            getCurrencyList();
+            getCurrency();
         }
-        public void getCurrencyList()
+        public void getCurrency()
         {
             API Request = new API("https://free.currconv.com/api/v7/currencies?apiKey=253e086647d6374c27c6");
             CurrencyList currencyList = CurrencyList.Deserialize(Request.SendAndGetResponse());
