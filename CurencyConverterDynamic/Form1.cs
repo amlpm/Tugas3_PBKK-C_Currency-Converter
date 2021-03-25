@@ -19,8 +19,8 @@ namespace CurencyConverterDynamic
         }
         public void getCurrencyList()
         {
-            API currencyListRequest = new API("https://free.currconv.com/api/v7/currencies?apiKey=253e086647d6374c27c6");
-            CurrencyList currencyList = CurrencyList.Deserialize(currencyListRequest.SendAndGetResponse());
+            API Request = new API("https://free.currconv.com/api/v7/currencies?apiKey=253e086647d6374c27c6");
+            CurrencyList currencyList = CurrencyList.Deserialize(Request.SendAndGetResponse());
 
             CurrencyData[] datas = currencyList.ToArray();
             foreach (CurrencyData currency in datas)
@@ -34,20 +34,20 @@ namespace CurencyConverterDynamic
         {
             if (string.IsNullOrEmpty(amount.Text))
             {
-                label7.Text = "Insert a number.";
+                label7.Text = "Masukkan Jumlah!";
                 label7.ForeColor = Color.Red;
             }
             else
             {
                 if (string.IsNullOrEmpty(fromComboBox.Text) || string.IsNullOrEmpty(toComboBox.Text))
                 {
-                    label7.Text = "One or two of the currencies are still empty.";
+                    label7.Text = "Salah Satu Mata Uang Masih Kosong";
                     label7.ForeColor = Color.Red;
                 }
                 else
                 {
                     double input = Convert.ToDouble(amount.Text);
-                    double rate = ExchangeRate(fromComboBox.Text, toComboBox.Text, dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
+                    double rate = Convertibility(fromComboBox.Text, toComboBox.Text, dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
                     input = input * rate;
 
                     label7.Text = Convert.ToString(input);
@@ -73,7 +73,7 @@ namespace CurencyConverterDynamic
                 else
                 {
                     double input = Convert.ToDouble(amount.Text);
-                    double rate = ExchangeRate(fromComboBox.Text, toComboBox.Text, dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
+                    double rate = Convertibility(fromComboBox.Text, toComboBox.Text, dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
                     input = input * rate;
 
                     label7.Text = Convert.ToString(input);
@@ -82,7 +82,7 @@ namespace CurencyConverterDynamic
             }
         }
 
-        public static double ExchangeRate(string from, string to, string date)
+        public static double Convertibility(string from, string to, string date)
         {
             string url;
             url = "https://free.currencyconverterapi.com/api/v6/" + "convert?q=" + from + "_" + to + "&compact=y&date=" + date + "&apiKey=253e086647d6374c27c6";

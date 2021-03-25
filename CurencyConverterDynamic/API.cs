@@ -9,7 +9,6 @@ namespace CurrencyConvertion
 {
     class API
     {
-
         private string url;
         private WebClient client;
 
